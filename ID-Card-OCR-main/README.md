@@ -1,6 +1,6 @@
 Note: The PyTorch model files have not been added yet, they will be included later. Also, a few changes to be made in the code which will be ready for production.
 
-`Authors:  Zain Ispahani; Muhammad Usman; Muhammad Ahmad`
+`Authors:  Zain Ispahani; Muhammad Usman
 # OCR Product Suite
 
 

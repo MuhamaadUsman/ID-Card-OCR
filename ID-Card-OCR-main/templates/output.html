@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Quick ID card Classification </title>
+    <link href="{{url_for('static',filename='css/bootstrap.css')}}" rel="stylesheet">
+    <link href="{{url_for('static',filename='css/bootstrap.css')}}" rel="stylesheet">
+    <link rel="icon" href="{{url_for('static',filename='img/favicon-16x16.png')}}" type="image/png" sizes="16x16">
+    <link href="{{url_for('static',filename='css/custom.css')}}" rel="stylesheet">
+</head>
+
+<body class="bg-light baseBody">
+    <div class="container mt-3 border">
+        <div class="row">
+            <div class="col-2 align-bottom mt-5 baseRow_1">
+                <img src="{{url_for('static',filename='img/leftImg.png')}}" class="img-fluid align-bottom" />
+            </div>
+            <div class="col-10 bg-white p-3">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="{{url_for('static',filename='img/CLogo.png')}}" class="img-fluid baseImg_1" />
+                    </div>
+                    <div class="col-6" align="right">
+                        <img src="{{url_for('static',filename='img/Hbl.PNG')}}" class="img-fluid baseImg_1" />
+                    </div>
+                </div>
+                <div class="bg-light p-4 mt-3">
+                    <div class="row mt-3">
+                        <div class="col-8">
+                            <p>Please provide a card image to check if it is CNIC | SCNIC | CNIC Back | SCNIC Back  or non of them:</p>
+
+                        </div>
+                        
+                    </div>
+
+<form method="POST" action="/Results" enctype="multipart/form-data">
+    <dl>
+        <p>
+            <input type="file" name="files[]" multiple="true" autocomplete="off" required>
+        </p>
+    </dl>
+    <p>
+        <input id= "check" type="submit" value="Submit">
+    </p>
+</form>
+
+
+
+
+<div class="row mt-3 d-print-none">
+                        <div class="col-8 d-print-none">
+                            <h2>Quick Classification Results</h2>
+                            <div id="container">
+                            <img  src="{{url_for('static',filename='uploads/'+results['Image'])}}" width="370" height="300"  />
+                                
+                            </div>
+                            <h4>{{results['card']}} {{    results['OCR results']   }} </h4>
+                        </div>
+</div>
+
+
+
+
+
+
+
+    <script src="{{url_for('static',filename='js/bootstrap.bundle.min.js')}}"></script>
+</body>
+
+</html>

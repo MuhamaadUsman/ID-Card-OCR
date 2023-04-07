@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Quick ID card Classification </title>
+    <link href="{{url_for('static',filename='css/bootstrap.css')}}" rel="stylesheet">
+    <link href="{{url_for('static',filename='css/custom.css')}}" rel="stylesheet">
+    <link rel="icon" href="{{url_for('static',filename='img/favicon-16x16.png')}}" type="image/png" sizes="16x16">
+    
+</head>
+
+<body class="bg-custom">
+
+    <div class="container-fluid mt-3">
+        <div class="row pb-4">
+            <div class="col-6">
+                &nbsp;&nbsp;&nbsp; <img src="{{url_for('static',filename='img/hblLogoMain.png')}}" width="150px" />
+            </div>
+            <div class="col-6 p-2" align="right">
+                <span class="custom-span">Welcome
+                </span>
+                <!--<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom"
+                    title="Tooltip on bottom"></button>-->
+                <img src="{{url_for('static',filename='img/question.png')}}" data-toggle="tooltip"
+                    data-placement="auto bottom" class="tooltip-main" title="A front-end national Idenity card classifier" />
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <!--<button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
+            -->
+            </div>
+        </div>
+        <div class="row pt-4">
+            <div class="col-6 align-bottom p-5 pt-3">
+                <br />
+                <img src="{{url_for('static',filename='img/welcomeLogo.png')}}" class="img-fluid" width="70%" />
+                <br />
+                <div class="p-3">
+                    <a href="/UploadImage"><img src="{{url_for('static',filename='img/contBtn.png')}}"
+                            class="img-fluid" /> </a>
+                </div>
+            </div>
+            <div class="col-6" align="right">
+                <img src="{{url_for('static',filename='img/bgFirstScreen.png')}}" class="img-fluid" />
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <script src="{{url_for('static',filename='js/jquery.min.js')}}"></script>
+    <script src="{{url_for('static',filename='js/bootstrap.bundle.min.js')}}"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+    <script src="{{url_for('static',filename='js/custom3.js')}}"></script>
+</body>
+
+</html>

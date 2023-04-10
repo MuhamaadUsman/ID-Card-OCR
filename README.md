@@ -14,7 +14,7 @@ An illustration of the above 03 steps before we perform OCR (using easyocr libra
 
 Any input/feedback would be highly-appreciated and incorporated! 
 
-`Authors:  Zain Ispahani (www.github.com/Zain-Ispahani); Muhammad Usman (www.github.com/MuhamaadUsman)`
+`Authors:  Muhammad Usman (www.github.com/MuhamaadUsman)`; Zain Ispahani (www.github.com/Zain-Ispahani)
 # OCR Product Suite
 
 

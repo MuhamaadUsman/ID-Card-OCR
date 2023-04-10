@@ -1,0 +1,51 @@
+{
+    "CNIC Front" : { 
+        "fields": {
+            "IDNo": "",
+            "Name_u": "",
+            "Gender": "",
+            "HFName_u": "",
+            "IdMark": "",
+            "DOB": ""
+          },
+          "required": ["IDNo", "DOB"]
+      },
+
+    "CNIC Back" : {
+        "fields": {
+            "IDNo": "",
+            "FNum": "",
+            "CAddress_u": "",
+            "PAddress_u": "",
+            "DOI": "",
+            "DOE": ""
+        },
+            "required": ["IDNo", "DOI", "DOE"]
+        },
+
+    "SNIC Front" : {
+        "fields": {
+            "Name": "",
+            "Name_u": "",
+            "HFName": "",
+            "HFName_u": "",
+            "Gender": "",
+            "Country_stay": "",
+            "IDNo": "",
+            "DOB": "",
+            "DOI": "",
+            "DOE": ""
+        },
+            "required": ["IDNo", "DOB", "DOI", "DOE"]
+        },
+
+    "SNIC Back" : {
+        "fields": {
+            "IDNo": "",
+            "CAddress_u": "",
+            "PAddress_u": "",
+            "QRNum": ""
+        },
+        "required": ["IDNo"]
+    }
+}

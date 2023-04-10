@@ -1,0 +1,14 @@
+opencv_python_headless==4.5.4.60
+pillow~=9.0.0
+flask~=1.1.1
+apispec~=5.2.2
+marshmallow~=3.17.1
+werkzeug~=1.0.0
+wtforms~=3.0.1
+torch~=1.10.2
+torchvision~=0.11.3
+numpy~=1.21.6
+easyocr~=1.6.1
+imutils~=0.5.4
+gunicorn~=20.1.0
+flask-restful

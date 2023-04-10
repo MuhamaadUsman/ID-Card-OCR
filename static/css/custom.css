@@ -1,0 +1,112 @@
+.bg-custom {
+    background-color: #f5f5f5 !important;
+}
+.custom-span{
+    color:#5Ab8B4; font-weight: bold;
+}
+::-webkit-input-placeholder {
+    font-style: italic;
+    font-size: 13px;
+}
+
+:-moz-placeholder {
+    font-style: italic;
+    font-size: 13px;
+}
+
+::-moz-placeholder {
+    font-style: italic;
+    font-size: 13px;
+}
+
+:-ms-input-placeholder {
+    font-style: italic;
+    font-size: 13px;
+}
+
+.borderLeft{
+    border-left: 5px solid #4D65D8 ;
+}
+.incomeDetails_1{
+    padding-left: 2rem !important;padding-right: 2rem !important;
+}
+.baseBody{
+    font-family: Segoe UI !important;
+}
+.baseRow_1{
+    display: flex;align-items: center;flex-wrap: wrap;
+}
+.baseImg_1{
+    height: 75px;
+}
+.baseDropDown_1{
+    webkit-appearance:auto;appearance:auto;
+}
+.baseDropDown_2{
+    webkit-appearance:auto;appearance:auto;background-color: #e9ecef;
+    /*webkit-appearance:auto;appearance:auto;background-color: #e9ecef;*/
+}
+.baseTbl_1{
+    width: 100%;
+}
+.baseParagraph{
+    color:red; font-weight: light;font-size:12px;
+
+}
+.resultParagraph{
+    color:red; font-weight: light;font-size:12px; padding:10px;
+}
+.resiltParagraph2{
+    color:black; font-weight: light;font-size:12px;
+}
+.resultBtn{
+    border-radius:100px;font-weight:bold;
+}
+@media print {
+
+    html,
+    body {
+        height: 100%;
+        margin: 0 !important;
+        padding: 0 !important;
+        overflow: hidden;
+        background-color: #fff !important;
+    }
+    #printableArea{
+        background-color: #fff !important;
+    }
+    #printingDiv{
+        background-color: #fff !important;
+    }
+
+}
+.resultSpan{
+    color:#5Ab8B4; font-weight: bold;
+}
+.resultSpan2{
+    font-weight: light;font-size:12px; padding:10px;
+}
+.resultDiv{
+    font-weight: bold !important; color:#64BBC6;
+}
+.resultDiv2{
+    border-bottom: 1px solid #5Ab8B4 ;color: #FF6F43;
+}
+.borderBottom{
+    border-bottom: 1px solid #5Ab8B4 ;
+}
+.borderBottom_2{
+    color: #FF6F43;border-bottom: 1px solid #5Ab8B4 ;
+}
+.resultRow{
+    font-weight: bold; color: #5AB8B4;
+}
+.resultPColor{
+    color: #FF6F43;
+}
+.resultI{
+    font-size:48px;color: #c12735;font-weight: bolder !important;
+}
+.resultI2{
+    font-size:48px;color: #c12735;
+}
